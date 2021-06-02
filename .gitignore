@@ -1,0 +1,9 @@
+public/vendor
+composer.lock
+app/config/configurar.php
+public/.htaccess
+.idea/
+.scannerwork
+.vscode
+sonar-project.properties
+app/images/*

@@ -1,0 +1,59 @@
+/*
+Aca se definen los colores generales en formato de variables para poder reutilizalos en todos los proyectos
+*/
+:root {
+  /*DEFINICION DE PALETA*/
+  --paleta-color-1: #023859;
+  /*--paleta-color-2: rgba(205,97,25,1);*/
+  --paleta-color-2: #005484;
+  --paleta-color-3: #0388a6;
+
+  --paleta-color-4: #04adbf;
+  --paleta-color-5: #4bc3f2;
+
+  --fuente-principal: "Roboto", sans-serif;
+
+  --color-principal: var(--paleta-color-2);
+  --color-letra-principal: var(--paleta-color-1);
+  --color-letra-claro: white;
+  --color-letra-obscuro: var(--paleta-color-1);
+  --color-fondo-basico: var(--paleta-color-2);
+  --color-fondo-contenido: rgba(240, 240, 240, 1);
+  --alto-menu: 50px;
+
+  --color-fondo-menu: #023859;
+  --color-fondo-submenu: #005484;
+  --color-hover-menu: #0388a6;
+  --menu-letra-weigth: 500;
+  --menu-letra-size: 0.8rem;
+  --menu-letra-espacio: 0.2rem;
+  --menu-letra-color: var(--paleta-color-5);
+
+  --color-boton-editar-fondo: rgba(241, 196, 15, 1);
+  --color-boton-editar: var(--color-letras-principal);
+
+  --color-boton-principal-fondo: rgba(36, 113, 163, 1);
+  --color-boton-principal: var(--color-letras-principal);
+
+  --color-boton-volver-fondo: rgba(87, 22, 126, 0.85);
+  --color-boton-volver-hover: rgba(87, 22, 126, 0.7);
+  --color-boton-volver: var(--color-letras-principal);
+
+  --color-boton-eliminar-fondo: rgba(231, 76, 60, 1);
+  --color-boton-eliminar: var(--color-letras-principal);
+
+  --color-boton-confirmar-fondo: rgba(46, 204, 113, 1);
+  --color-boton-confirmar: var(--color-letras-principal);
+
+  --color-boton-borde: var(--paleta-color-2);
+  --color-boton-fondo: var(--paleta-color-2);
+  --color-boton-hover: var(--paleta-color-4);
+
+  --img-fondo: url("../dist/img/fondo.png");
+  --color-fondo-loading: rgba(77, 77, 77, 1);
+
+  --color-fondo-inactivo: rgba(77, 77, 77, 1);
+  --color-fondo-activo: var(--paleta-color-2);
+
+  --color-fondo-base: #f6f5f5;
+}

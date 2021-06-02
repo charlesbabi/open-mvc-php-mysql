@@ -1,0 +1,22 @@
+{
+    "name": "openmvc/framephp",
+    "description": "model MVC para PHP Sencillo",
+    "type": "proyecto",
+    "authors": [
+        {
+            "name": "John Babi",
+            "email": "johnbabi.jb@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "components/jquery": "^3.5",
+        "components/jqueryui": "^1.12",
+        "components/bootstrap": "^4.5",
+        "dompdf/dompdf": "^1.0"
+    },
+    "config": {
+        "component-dir": "public/lib",
+        "component-baseurl": "/lib"
+    }
+}
